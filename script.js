@@ -76,7 +76,7 @@ if (footerBottom && !footerBottom.querySelector('a[href="sitemap.html"]')) {
 
 document.querySelectorAll('.footer-bottom span').forEach((footerText) => {
   if (!footerText.textContent.includes('Desenvolvida por Fuli Sites')) return;
-  footerText.innerHTML = 'Desenvolvida por <a class="fuli-link" href="https://fulisites.pages.dev/" target="_blank" rel="noopener">Fuli Sites · fulisites.pages.dev</a>';
+  footerText.innerHTML = '<a class="fuli-link" href="https://multipagemel.pages.dev/" target="_blank" rel="noopener">Multipage Mel</a>';
 });
 
 if (menuToggle && navLinks) {
