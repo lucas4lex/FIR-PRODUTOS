@@ -7,28 +7,7 @@ const menuGroups = [
   { label: 'Negócios', links: [['segmentos.html', 'Segmentos'], ['atacado.html', 'Atacado'], ['orcamento.html', 'Orçamento']] }
 ];
 
-const productLinks = {
-  'Cadernos de capa têxtil': 'produto-cadernos.html',
-  'Cerâmica de mesa': 'produto-ceramica.html',
-  'Cuidados essenciais': 'produto-cuidados.html',
-  'Pequenos rituais': 'produto-rituais.html',
-  'Velas de assinatura': 'produto-velas.html',
-  'Ritual de escrita': 'produto-escrita.html',
-  'Banho botânico': 'produto-banho.html',
-  'Caixa de boas-vindas': 'produto-caixa.html',
-  'Bandeja de madeira clara': 'produto-bandeja.html',
-  'Toalha de linho lavado': 'produto-linho.html',
-  'Kit correspondência': 'produto-correspondencia.html',
-  'Difusor de ambiente': 'produto-difusor.html',
-  'Jarra de vidro canelado': 'produto-jarra.html',
-  'Porta-sabonete mineral': 'produto-porta-sabonete.html',
-  'Fita de algodão cru': 'produto-fita.html',
-  'Estojo essencial': 'produto-estojo.html',
-  'Cesta de fibra natural': 'produto-cesta.html',
-  'Spray de ambiente': 'produto-spray.html',
-  'Caneca de espresso': 'produto-caneca.html',
-  'Cartão-presente FIR': 'produto-cartao.html'
-};
+const productLinks = {"Sacolas de papel kraft": "produto-sacola-kraft.html", "Caixas para delivery e e-commerce": "produto-caixa-delivery.html", "Fitas adesivas e filme stretch": "produto-fitas-filme.html", "Sacos plásticos e zip": "produto-saco-plastico.html", "Papel de seda e kraft": "produto-papel-seda.html", "Sacolas plásticas alça camiseta": "produto-sacola-plastica.html", "Caixas para presente": "produto-caixa-presente.html", "Plástico bolha": "produto-plastico-bolha.html", "Envelopes de segurança": "produto-envelope-seguranca.html", "Fitas e laços decorativos": "produto-fita-cetim.html", "Sacos de papel para pão e lanche": "produto-saco-papel-pao.html", "Bobinas térmicas para PDV": "produto-bobina-termica.html", "Etiquetas de preço e precificadores": "produto-etiquetas-preco.html", "Leitores de código de barras": "produto-leitor-codigo.html", "Impressoras de etiquetas": "produto-impressora-etiquetas.html", "Gavetas de caixa": "produto-gaveta-caixa.html", "Tags e lacres de segurança": "produto-tags-lacres.html", "Balanças comerciais digitais": "produto-balanca-digital.html", "Detectores de notas falsas": "produto-detector-notas.html", "Expositores de balcão": "produto-expositor-balcao.html", "Araras e cabides": "produto-arara-cabide.html", "Gôndolas aramadas": "produto-gondola.html", "Manequins para vitrine": "produto-manequim.html", "Prateleiras de parede": "produto-prateleira-parede.html", "Placas de preço em acrílico": "produto-placa-acrilico.html", "Porta-folhetos e displays de mesa": "produto-porta-folheto.html", "Vitrines de vidro": "produto-vitrine-vidro.html", "Organizadores de balcão": "produto-organizador-balcao.html", "Cestas e carrinhos de loja": "produto-cesta-loja.html", "Caixas organizadoras empilháveis": "produto-caixa-organizadora.html", "Estantes de aço": "produto-estante-aco.html", "Carrinhos de plataforma": "produto-carrinho-plataforma.html", "Copos e potes descartáveis": "produto-copos-descartaveis.html", "Embalagens para alimentos": "produto-embalagens-alimentos.html", "Copos para café com tampa": "produto-copo-cafe.html", "Canudos e guardanapos": "produto-canudos-guardanapos.html", "Luvas descartáveis": "produto-luvas-descartaveis.html", "Filme PVC e papel alumínio": "produto-filme-pvc.html", "Kit higiene e limpeza para lojas": "produto-kit-limpeza.html", "Sacos de lixo reforçados": "produto-sacos-lixo.html", "Papel toalha e higiênico": "produto-papel-toalha.html", "Desinfetantes e multiuso": "produto-desinfetante.html", "Dispensers de sabonete e álcool": "produto-dispenser-sabonete.html", "Sacolas de TNT": "produto-sacola-tnt.html", "Caixas para pizza": "produto-caixa-pizza.html", "Caixas de correio": "produto-caixa-correio.html", "Fitas dupla face": "produto-fita-dupla-face.html", "Etiquetas \"frágil\" e \"este lado para cima\"": "produto-etiqueta-fragil.html", "Papel kraft em rolo": "produto-papel-kraft-rolo.html", "Sacos para embalagem a vácuo": "produto-saco-vacuo.html", "Caixas para calçados": "produto-caixa-sapato.html", "Embalagens para bijuterias": "produto-embalagem-bijuteria.html", "Ecobags de algodão cru": "produto-ecobag.html", "Pistolas etiquetadoras": "produto-pistola-etiquetadora.html", "Etiquetas adesivas redondas": "produto-etiquetas-redondas.html", "Monitores touch para PDV": "produto-monitor-pdv.html", "Teclados comerciais programáveis": "produto-teclado-comercial.html", "Bobinas térmicas 80 mm": "produto-bobina-80mm.html", "Etiquetas para balança": "produto-etiquetas-balanca.html", "Cofres para caixa": "produto-cofre-caixa.html", "Blocos de comanda e pedido": "produto-comanda.html", "Contadores de cédulas": "produto-contador-cedulas.html", "Totens promocionais": "produto-totem-promocional.html", "Mesas expositoras": "produto-mesa-expositora.html", "Cabides infantis": "produto-cabide-infantil.html", "Painéis expositores com ganchos": "produto-painel-ganchos.html", "Balcões vitrine": "produto-balcao-vitrine.html", "Porta-cartazes e cavaletes": "produto-porta-cartaz.html", "Mostruários para joias": "produto-mostruario-joias.html", "Expositores para óculos": "produto-suporte-oculos.html", "Araras de parede": "produto-arara-parede.html", "Cestos aramados": "produto-cesto-aramado.html", "Prateleiras plásticas": "produto-prateleira-plastica.html", "Gaveteiros plásticos": "produto-gaveteiro-plastico.html", "Paletes plásticos": "produto-pallet-plastico.html", "Escadas de alumínio": "produto-escada-aluminio.html", "Armários de aço": "produto-armario-aco.html", "Caixas de ferramentas e utilidades": "produto-caixa-ferramentas.html", "Cestos plásticos": "produto-cesto-plastico.html", "Porta-objetos de parede": "produto-porta-objetos-parede.html", "Potes herméticos": "produto-pote-hermetico.html", "Copos e taças para sorvete": "produto-copo-sorvete.html", "Talheres descartáveis": "produto-colher-descartavel.html", "Pratos descartáveis": "produto-prato-descartavel.html", "Bags isotérmicas para delivery": "produto-bag-isotermica.html", "Bandejas de isopor": "produto-bandeja-isopor.html", "Garrafas e jarras para água": "produto-garrafa-agua.html", "Potes para molhos": "produto-pote-molho.html", "Hashis e palitos": "produto-palitos-hashi.html", "Luvas de limpeza": "produto-luvas-limpeza.html", "Panos de microfibra": "produto-pano-microfibra.html", "Esponjas e fibras de limpeza": "produto-esponja.html", "Baldes e mops": "produto-balde-mop.html", "Álcool em gel e líquido 70%": "produto-alcool-gel.html", "Sabão em pó e detergentes": "produto-sabao-po.html", "Lixeiras com pedal": "produto-lixeira-pedal.html", "Aromatizadores de ambiente": "produto-aromatizador.html"};
 
 if (navLinks) {
   navLinks.replaceChildren();
@@ -88,7 +67,7 @@ if (menuToggle && navLinks) {
 }
 
 document.querySelectorAll('.products-grid .product-card, .category-grid .category, .blog-grid .blog-card').forEach((card, index) => {
-  card.style.setProperty('--card-index', index);
+  card.style.setProperty('--card-index', index % 6);
 });
 
 const animatedSections = document.querySelectorAll('.section, .band, .page-hero, .article-hero');
@@ -101,7 +80,7 @@ if ('IntersectionObserver' in window) {
       entry.target.classList.add('is-visible');
       observer.unobserve(entry.target);
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0, rootMargin: '0px 0px -60px 0px' });
   animatedSections.forEach((section) => revealObserver.observe(section));
 } else {
   animatedSections.forEach((section) => section.classList.add('is-visible'));
@@ -172,3 +151,6 @@ if (contactForm) {
     }
   });
 }
+
+const catParam = new URLSearchParams(window.location.search).get('categoria');
+if (catParam) { const b = document.querySelector('.filter-btn[data-filter="' + catParam + '"]'); if (b) b.click(); }
